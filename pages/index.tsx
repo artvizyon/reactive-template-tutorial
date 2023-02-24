@@ -46,7 +46,9 @@ export default function Home() {
             allow="autoplay"
             src="/assets/videos/next.mp4"
             title="reactive"
-          ></iframe>
+          >
+            
+          </iframe>
 
           <div className={styles.thirteen}>
             <Image

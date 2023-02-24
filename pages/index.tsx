@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "@next/font/google";
+import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
+              By{" "}
               <Image
                 src="/assets/images/vercel.svg"
                 alt="Dijitrend Logo"
@@ -40,13 +40,13 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-        <iframe
-          width={300}
-          height={300}
-          allow="autoplay"
-          src="/assets/videos/next.mp4"
-          title="reactive">
-        </iframe>
+          <iframe
+            width={300}
+            height={300}
+            allow="autoplay"
+            src="/assets/videos/next.mp4"
+            title="reactive"
+          ></iframe>
 
           <div className={styles.thirteen}>
             <Image
@@ -119,5 +119,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }

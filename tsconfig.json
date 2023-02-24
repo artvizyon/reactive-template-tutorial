@@ -22,11 +22,7 @@
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"],
   "paths": {
-    "@images/*": [
-      "./public/assets/images/*"
-    ],
-    "@videos/*": [
-      "./public/assets/videos/*"
-    ],
-}
+    "@images/*": ["./public/assets/images/*"],
+    "@videos/*": ["./public/assets/videos/*"]
+  }
 }

@@ -40,15 +40,14 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-          <iframe
-            width={300}
-            height={300}
-            allow="autoplay"
-            src="/assets/videos/next.mp4"
-            title="reactive"
-          >
-            
-          </iframe>
+          <Image
+            className={styles.logo}
+            src="/assets/images/next.svg"
+            alt="Next.js Logo"
+            width={180}
+            height={37}
+            priority
+          />
 
           <div className={styles.thirteen}>
             <Image
